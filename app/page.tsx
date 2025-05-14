@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button"
 import { InsidersSection } from "@/components/insiders-section"
 import { LiveServerStats } from "@/components/live-server-stats"
 import { YouTubeHero } from "@/components/youtube-hero"
+import { Footer } from "@/components/footer"
 
 export default function Home() {
   const servers = [
@@ -63,19 +64,6 @@ export default function Home() {
       {/* Hero Section with YouTube Video */}
       <YouTubeHero videoId="eJis4tGVwj8" />
 
-      {/* About Section */}
-      <section className="py-20">
-        <div className="container mx-auto px-4">
-          <div className="mx-auto max-w-3xl rounded-2xl border border-white/10 bg-black/40 p-8 backdrop-blur-lg">
-            <h2 className="mb-6 text-center text-3xl font-bold">About Our Crew</h2>
-            <p className="text-center text-lg text-gray-300">
-              We're a dominant force in FiveM's Cops and Robbers. From high-stakes heists to law enforcement takeovers,
-              Peaky Blinders plays hard and fair.
-            </p>
-          </div>
-        </div>
-      </section>
-
       {/* Insiders Section */}
       <InsidersSection />
 
@@ -124,9 +112,9 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <Button asChild size="lg" className="bg-purple-600 hover:bg-purple-700">
-        <Link href="https://discord.gg/2WgXGbcvYN">Join Our Discord</Link>
-      </Button>
+
+      {/* Footer */}
+      <Footer />
     </main>
   )
 }

@@ -4,11 +4,17 @@ interface MemberProps {
   name: string
   role: string
   discordId: string
+  avatarUrl?: string // Optional custom avatar URL
 }
 
-export function MemberCard({ name, role, discordId }: MemberProps) {
-  // Generate a unique key for the placeholder image based on the name
-  const placeholderKey = name.replace(/[^a-zA-Z0-9]/g, "").toLowerCase()
+export function MemberCard({ name, role, discordId, avatarUrl }: MemberProps) {
+  // If a custom avatarUrl is provided, use it
+  // Otherwise, generate a default Discord avatar based on Discord ID
+  const defaultIndex = Number.parseInt(discordId.slice(-1), 10) % 6
+  const defaultAvatarUrl = `https://cdn.discordapp.com/embed/avatars/${defaultIndex}.png`
+
+  // Use custom avatar if provided, otherwise fall back to default
+  const imageUrl = avatarUrl || defaultAvatarUrl
 
   return (
     <div className="glass-card group relative overflow-hidden rounded-xl border border-white/10 bg-black/40 p-5 backdrop-blur-lg transition-all duration-300 hover:border-purple-500/30 hover:shadow-lg hover:shadow-purple-500/20">
@@ -16,9 +22,8 @@ export function MemberCard({ name, role, discordId }: MemberProps) {
 
       <div className="flex flex-col items-center text-center">
         <div className="relative mb-4 h-24 w-24 overflow-hidden rounded-full border-2 border-purple-500/20 transition-all duration-300 group-hover:border-purple-500/50">
-          {/* Use a gaming avatar placeholder with the person's name in the query */}
           <Image
-            src={`/placeholder.svg?key=smnne&height=96&width=96&query=gaming profile avatar for ${name}`}
+            src={imageUrl || "/placeholder.svg"}
             alt={name}
             width={96}
             height={96}
