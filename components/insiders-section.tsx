@@ -35,7 +35,7 @@ export function InsidersSection() {
         name: "P-B | DynamixOG",
         role: "Boss",
         discordId: "460482036247822346",
-        // No avatarUrl provided, will use default Discord avatar
+        avatarUrl: "https://i.imgur.com/5KWd2oq.jpeg",
       },
     ],
     underbosses: [
