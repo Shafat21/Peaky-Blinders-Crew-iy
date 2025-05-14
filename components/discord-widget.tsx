@@ -119,7 +119,7 @@ export function DiscordWidget() {
       {/* Join button */}
       <div className="p-4">
         <a
-          href={discordData.instant_invite}
+          href="https://discord.gg/2WgXGbcvYN"
           target="_blank"
           rel="noopener noreferrer"
           className="flex w-full items-center justify-center rounded-md bg-[#5865F2] py-3 font-medium text-white hover:bg-[#4752C4] transition-colors"
