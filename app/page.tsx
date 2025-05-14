@@ -124,6 +124,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <Button asChild size="lg" className="bg-purple-600 hover:bg-purple-700">
+        <Link href="https://discord.gg/2WgXGbcvYN">Join Our Discord</Link>
+      </Button>
     </main>
   )
 }
