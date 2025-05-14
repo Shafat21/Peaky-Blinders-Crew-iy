@@ -25,6 +25,11 @@ export function InsidersSection() {
         role: "Boss",
         discordId: "212641775272067073",
       },
+      {
+        name: "P-B | DynamixOG",
+        role: "Boss",
+        discordId: "460482036247822346",
+      },
     ],
     underbosses: [
       {
