@@ -19,12 +19,12 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://peaky-blinders-crew.vercel.app"),
+  metadataBase: new URL("https://peakyblindercnrv.vercel.app/"),
   openGraph: {
     title: "Peaky Blinders | Cops and Robbers V Crew",
     description:
       "Join the dominant force in FiveM's Cops and Robbers. From high-stakes heists to law enforcement takeovers, Peaky Blinders plays hard and fair.",
-    url: "https://peaky-blinders-crew.vercel.app",
+    url: "https://peakyblindercnrv.vercel.app/",
     siteName: "Peaky Blinders Crew",
     images: [
       {
