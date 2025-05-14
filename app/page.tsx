@@ -1,10 +1,10 @@
-import Image from "next/image"
 import Link from "next/link"
 import { DiscordWidget } from "@/components/discord-widget"
 import { ServerCard } from "@/components/server-card"
 import { Button } from "@/components/ui/button"
 import { InsidersSection } from "@/components/insiders-section"
 import { LiveServerStats } from "@/components/live-server-stats"
+import { YouTubeHero } from "@/components/youtube-hero"
 
 export default function Home() {
   const servers = [
@@ -60,33 +60,8 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-black text-white">
-      {/* Hero Section */}
-      <section className="relative h-screen w-full">
-        <div className="absolute inset-0 z-0">
-          <Image
-            src="/placeholder.svg?key=xnodq"
-            alt="Peaky Blinders Background"
-            fill
-            className="object-cover"
-            priority
-          />
-          <div className="absolute inset-0 bg-black/60 backdrop-blur-sm"></div>
-        </div>
-
-        <div className="relative z-10 flex h-full flex-col items-center justify-center px-4 text-center">
-          <h1 className="mb-4 text-5xl font-bold tracking-tight sm:text-6xl md:text-7xl">
-            <span className="bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text text-transparent">
-              Peaky Blinders
-            </span>
-          </h1>
-          <p className="mb-8 max-w-2xl text-xl text-gray-300 sm:text-2xl">
-            Cops and Robbers V — Rule the Law or Break It
-          </p>
-          <Button asChild size="lg" className="bg-purple-600 hover:bg-purple-700">
-            <Link href="https://discord.gg/2WgXGbcvYN">Join Our Discord</Link>
-          </Button>
-        </div>
-      </section>
+      {/* Hero Section with YouTube Video */}
+      <YouTubeHero videoId="eJis4tGVwj8" />
 
       {/* About Section */}
       <section className="py-20">
