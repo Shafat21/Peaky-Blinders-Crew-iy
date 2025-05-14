@@ -8,14 +8,14 @@ export function InsidersSection() {
         role: "Creator",
         discordId: "396059469337067522",
         // Example of custom avatar URL - replace with actual URL
-        avatarUrl: "https://wallpapers.com/images/featured/discord-profile-pictures-xk3qyllfj1j46kte.jpg",
+        avatarUrl: "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/v1/attachments/delivery/asset/5c7a5ed1ae87a63a291d5eaeddcc615e-1596969636/cc%20and%20downscale_6/create-a-gif-for-your-discord-nitro-profile.gif",
       },
       {
         name: "P-B | 💦Slim Shady💦",
         role: "Creator",
         discordId: "341967945318006795",
         // Example of custom avatar URL - replace with actual URL
-        avatarUrl: "https://wallpapers.com/images/featured/discord-profile-pictures-xk3qyllfj1j46kte.jpg",
+        avatarUrl: "https://cdnb.artstation.com/p/assets/images/images/045/952/021/original/maddie_creates-600x600.gif?1643923145",
       },
     ],
     bosses: [
@@ -29,7 +29,7 @@ export function InsidersSection() {
         name: "P-B | DEVIN",
         role: "Boss",
         discordId: "212641775272067073",
-        // No avatarUrl provided, will use default Discord avatar
+        avatarUrl: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f044d663-80b9-446e-abdf-e4533aed7115/diflbe8-a71d6e94-afdc-4d04-b351-cce20ba22951.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2YwNDRkNjYzLTgwYjktNDQ2ZS1hYmRmLWU0NTMzYWVkNzExNVwvZGlmbGJlOC1hNzFkNmU5NC1hZmRjLTRkMDQtYjM1MS1jY2UyMGJhMjI5NTEuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.sv_9iS9pCpQ-niJEdSFDmZyPMEs7Vq6b3ZYNyiqAeTs",
       },
       {
         name: "P-B | DynamixOG",
@@ -49,13 +49,13 @@ export function InsidersSection() {
         name: "P-B | ShivanshST89",
         role: "Underboss",
         discordId: "735052328415002625",
-        // No avatarUrl provided, will use default Discord avatar
+        avatarUrl: "https://woodpunchsgraphics.com/cdn/shop/files/Glitch-Discord-Server-Icon-Purple.webp?v=1737952288",
       },
       {
         name: "P-B | WolficekOG",
         role: "Underboss",
         discordId: "207608039656783876",
-        // No avatarUrl provided, will use default Discord avatar
+        avatarUrl: "https://media.tenor.com/ltpyiPEvEE0AAAAM/magic-wolf.gif",
       },
     ],
   }
