@@ -23,7 +23,7 @@ export function InsidersSection() {
         name: "P-B | TheFrup!OG",
         role: "Boss",
         discordId: "683750652039528452",
-        // No avatarUrl provided, will use default Discord avatar
+        avatarUrl: "https://i.postimg.cc/ryYQCtnd/360-F-570799631-o-Gks9-H7-Hi-HUhn2-LWA4-Qy-J3-TXge-QA7-XSc.jpg",
       },
       {
         name: "P-B | DEVIN",
@@ -43,7 +43,7 @@ export function InsidersSection() {
         name: "P-B | Artjom471",
         role: "Underboss",
         discordId: "432492018317524992",
-        // No avatarUrl provided, will use default Discord avatar
+        avatarUrl: "https://i.postimg.cc/65XLhLVp/360-F-786609151-A8u21e8lv-PFymx9-Ki-Isph-Jmce-Uw-Vd-Ov-G.jpg",
       },
       {
         name: "P-B | ShivanshST89",
