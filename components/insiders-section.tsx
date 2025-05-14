@@ -35,7 +35,7 @@ export function InsidersSection() {
         name: "P-B | DynamixOG",
         role: "Boss",
         discordId: "460482036247822346",
-        avatarUrl: "https://i.imgur.com/5KWd2oq.jpeg",
+        avatarUrl: "https://i.postimg.cc/rsX4pMy9/gta-vi-colors-of-the-logo-v0-esec9eww9p3c1-1-1.jpg",
       },
     ],
     underbosses: [
