@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     siteName: "Peaky Blinders Crew",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "https://static.wikia.nocookie.net/peaky-blinders/images/e/e6/Site-logo.png",
         width: 1200,
         height: 630,
         alt: "Peaky Blinders Crew",
