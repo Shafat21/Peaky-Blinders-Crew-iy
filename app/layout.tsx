@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     title: "Peaky Blinders | Cops and Robbers V Crew",
     description:
       "Join the dominant force in FiveM's Cops and Robbers. From high-stakes heists to law enforcement takeovers, Peaky Blinders plays hard and fair.",
-    images: ["/og-image.jpg"],
+    images: ["https://static.wikia.nocookie.net/peaky-blinders/images/e/e6/Site-logo.png"],
   },
   robots: {
     index: true,
