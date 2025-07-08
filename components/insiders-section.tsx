@@ -11,51 +11,38 @@ export function InsidersSection() {
         avatarUrl: "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/v1/attachments/delivery/asset/5c7a5ed1ae87a63a291d5eaeddcc615e-1596969636/cc%20and%20downscale_6/create-a-gif-for-your-discord-nitro-profile.gif",
       },
       {
-        name: "P-B | 💦Slim Shady💦",
-        role: "Creator",
-        discordId: "341967945318006795",
-        // Example of custom avatar URL - replace with actual URL
-        avatarUrl: "https://cdnb.artstation.com/p/assets/images/images/045/952/021/original/maddie_creates-600x600.gif?1643923145",
+        name: "P-B | TheFrup!OG",
+        role: "Leader",
+        discordId: "683750652039528452",
+        avatarUrl: "https://i.postimg.cc/ryYQCtnd/360-F-570799631-o-Gks9-H7-Hi-HUhn2-LWA4-Qy-J3-TXge-QA7-XSc.jpg",
       },
     ],
     bosses: [
       {
-        name: "P-B | TheFrup!OG",
-        role: "Boss",
-        discordId: "683750652039528452",
-        avatarUrl: "https://i.postimg.cc/ryYQCtnd/360-F-570799631-o-Gks9-H7-Hi-HUhn2-LWA4-Qy-J3-TXge-QA7-XSc.jpg",
-      },
-      {
-        name: "P-B | DEVIN",
+        name: "P-B | Artjom471OG",
         role: "Boss",
         discordId: "212641775272067073",
         avatarUrl: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f044d663-80b9-446e-abdf-e4533aed7115/diflbe8-a71d6e94-afdc-4d04-b351-cce20ba22951.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2YwNDRkNjYzLTgwYjktNDQ2ZS1hYmRmLWU0NTMzYWVkNzExNVwvZGlmbGJlOC1hNzFkNmU5NC1hZmRjLTRkMDQtYjM1MS1jY2UyMGJhMjI5NTEuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.sv_9iS9pCpQ-niJEdSFDmZyPMEs7Vq6b3ZYNyiqAeTs",
       },
       {
         name: "P-B | DynamixOG",
-        role: "Boss",
+        role: "Co-Leader",
         discordId: "460482036247822346",
         avatarUrl: "https://i.postimg.cc/rsX4pMy9/gta-vi-colors-of-the-logo-v0-esec9eww9p3c1-1-1.jpg",
+      },
+      {
+        name: "P-B | WolficekOG",
+        role: "Boss",
+        discordId: "207608039656783876",
+        avatarUrl: "https://media.tenor.com/ltpyiPEvEE0AAAAM/magic-wolf.gif",
       },
     ],
     underbosses: [
       {
-        name: "P-B | Artjom471",
-        role: "Underboss",
+        name: "P-B | Shafat",
+        role: "Senior Capo",
         discordId: "432492018317524992",
         avatarUrl: "https://i.postimg.cc/65XLhLVp/360-F-786609151-A8u21e8lv-PFymx9-Ki-Isph-Jmce-Uw-Vd-Ov-G.jpg",
-      },
-      {
-        name: "P-B | ShivanshST89",
-        role: "Underboss",
-        discordId: "735052328415002625",
-        avatarUrl: "https://woodpunchsgraphics.com/cdn/shop/files/Glitch-Discord-Server-Icon-Purple.webp?v=1737952288",
-      },
-      {
-        name: "P-B | WolficekOG",
-        role: "Underboss",
-        discordId: "207608039656783876",
-        avatarUrl: "https://media.tenor.com/ltpyiPEvEE0AAAAM/magic-wolf.gif",
       },
     ],
   }
