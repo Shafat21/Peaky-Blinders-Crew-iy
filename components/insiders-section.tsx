@@ -69,8 +69,8 @@ export function InsidersSection() {
           </h3>
 
           <RoleGroup title="Leader / Creators" members={leadershipData.leaders} />
-          <RoleGroup title="Co-Leader/Bosses" members={leadershipData.bosses} />
-          <RoleGroup title="Underbosses" members={leadershipData.underbosses} />
+          <RoleGroup title="Co-Leader / Bosses" members={leadershipData.bosses} />
+          <RoleGroup title="Underbosses / Senior Capo" members={leadershipData.underbosses} />
         </div>
       </div>
     </section>
